@@ -128,6 +128,13 @@ a {
   background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
 }
 
+@media (max-width: 42.5em) {
+  .welcome-section {
+    padding-top: 60rem;
+    padding-bottom: 60rem;
+  }
+}
+
 .welcome-section > p {
   font-size: 2.5rem;
   font-weight: 500;
@@ -148,7 +155,7 @@ img {
   margin: 2rem;
 }
 
-@media (max-width: 30.625em) {
+@media (max-width: 35em) {
   img {
     width: 150px;
     height: 150px;
